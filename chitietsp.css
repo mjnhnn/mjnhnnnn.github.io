@@ -278,8 +278,8 @@
 .muangay{
     /*margin: 10px 40px;
     width: 100% !important;*/
-    float: right !important;
-    width: 100% !important;
+   /* float: right !important;
+    width: 100% !important;*/
 }
 .ship{
     /*float: right !important;*/
@@ -678,18 +678,31 @@ border-bottom: 1px solid;
             display: flex;
             justify-content: space-around;
             margin-bottom: 20px;
+            width: 100%;
         }
          .btn-chitiet {
             background-color: white!important;
             border: 1px solid #ff789e !important;
             color: #ff789e!important;
+            width: 200px !important;
         }
         
         .btn-chitiet:hover {
             background-color: #ff4579 !important;
             border: 1px solid #ff4579 !important;
             color: white !important;
+            display: none !important;
         }
+       .xemchitiet{
+        background-color: white !important;
+        color: #ff789e !important;
+        border: 1px solid #ff789e !important;
+       }
+       .xemchitiet:hover{
+        background-color: #ff4579 !important;
+            border: 1px solid #ff4579 !important;
+            color: white !important;
+       }
         .muangay:hover {
             background-color: #ff4579 !important;
             border: 1px solid #ff4579 !important;
@@ -753,14 +766,24 @@ border-bottom: 1px solid;
             border: 2px solid #ccc;
         }
         
-        .sanphamcon input {
+        .sanphamcon a {
             opacity: 0;
-            transition: 0.5s ease;
-            width: 100px;
+            transition: 0.6s ease;
+            border: 1px solid #ff789e !important;
             height: 40px;
+            text-decoration: none;
+
+
         }
-        
-        .sanphamcon:hover input {
+       
+        .buttonsp a{
+            text-align: center;
+            line-height: 37px;
+            margin: 0; 
+            text-decoration: none;
+            
+        }
+        .sanphamcon:hover a {
             position: relative;
             bottom: 10px;
             background-color: #ff789e;
@@ -769,9 +792,13 @@ border-bottom: 1px solid;
             /*display: inline;*/
             opacity: 1;
             margin: 0 10px;
-            width: 100px;
+            width: 250px;
             height: 40px;
+            font-size: 10px;
+            font-weight: bold;
+
         }
+        
         .sanphamlienquan{
            margin-top: 20px;
             display: flex;
@@ -908,3 +935,21 @@ flex: 2;
 .nav__input:checked ~ .overlay{
     display: block;
 }
+
+
+
+
+/*option*/
+.lbl-lablel{
+    min-width: 100px ;
+}
+.label__size{
+    margin-top: 10px;
+}
+.choose_type{
+    min-width: 150px;
+    position: relative;
+
+}
+ /*option*/
+ 
