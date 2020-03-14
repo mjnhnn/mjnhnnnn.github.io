@@ -1,12 +1,20 @@
+					@media only screen and (max-width: 500px){
+.comment-facebook{
+                        margin-bottom: 250px !important;
+                    }
+					}
+
 					@media only screen and (max-width: 900px) {
 .img-thongtinsp{
   /* width: 100% !important;*/
     width: 300px !important;
     margin: 0 auto !important;
 }
+.
 					.header-top{
 					display: none !important;
 					}
+                    
                     .abcxyz{
                      /*   padding-top: 100px !important;
                         margin-top: 0 !important;*/
