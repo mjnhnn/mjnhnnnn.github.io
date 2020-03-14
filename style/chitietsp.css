@@ -1,5 +1,3 @@
-				
-
 					@media only screen and (max-width: 900px) {
 .img-thongtinsp{
   /* width: 100% !important;*/
@@ -9,9 +7,9 @@
 					.header-top{
 					display: none !important;
 					}
-                    .comment-facebook{
-                        margin-bottom: 300px !important;
-                    }
+					.comment-facebook{
+						margin-bottom: 350px !important;
+					}
                     .abcxyz{
                      /*   padding-top: 100px !important;
                         margin-top: 0 !important;*/
@@ -957,4 +955,3 @@ flex: 2;
 
 }
  /*option*/
- 
