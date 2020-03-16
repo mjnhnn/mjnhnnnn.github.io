@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Chi tiet sp</title>
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="fontawesome/css/all.css">
-        <meta name="viewport" content="width = device-width , initial-scale = 1">
-        <link rel="stylesheet" href="fontawesome/css/brands.min.css">
-        <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
-        <link rel="stylesheet" href="fontawesome/css/regular.min.css">
-        <link rel="stylesheet" href="fontawesome/css/all.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<meta charset="UTF-8">
+	<title>Chi tiet sp</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="fontawesome/css/all.css">
+		<meta name="viewport" content="width = device-width , initial-scale = 1">
+		<link rel="stylesheet" href="fontawesome/css/brands.min.css">
+		<link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="fontawesome/css/regular.min.css">
+		<link rel="stylesheet" href="fontawesome/css/all.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
        
-        <link rel="stylesheet" href="style/chitietsp.css">
+		<link rel="stylesheet" href="style/chitietsp.css">
+        <link rel="stylesheet" href="style/cssgiohang.css">
 
 </head>
 <body>
 
 
 
-    <!-- start header -->
-        <div class="col-md-12 header">
+	<!-- start header -->
+		<div class="col-md-12 header">
 
         <div class="header-top">
 
@@ -39,7 +40,7 @@
 
         <div class="header-bot">
             <div class="container-fluid menu">
-                <div class="overlay"></div>
+                <!-- <div class="overlay"></div> -->
                 <!--  <video class="video-bg" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="../video/videobg.webm" type="video/mp4">
     </video> -->
@@ -179,14 +180,80 @@
                                 <li class="nav-item nav-item-hoivien">
                                     <button class="btn-hoivien">Hội viên</button>
                                 </li>
-                                <li class="nav-item cartt">
+
+                                <label for="nav-giohang" class="nav-item cartt">
                                     <i class="fa fa-shopping-cart"></i>
-                                </li>
+                                </label>
+                            
                             </ul>
+                            <!-- <div class="over_lay"></div> -->
+
 
                             
                         <!-- </div> -->
                     </nav>
+                   <input type="checkbox" hidden name="" class="nav__inputt" id="nav-giohang">
+
+
+
+
+                             <input type="checkbox" hidden name="" class="nav__inputt" id="nav-giohang">
+
+                            <label for="nav-giohang" class="overlayy"></label>
+
+                                <form action="giohang.php" method="post" class="nav__mobliee">
+                             
+                            <label for="nav-giohang" class="nav__mobile_closes" >
+                                
+                                <img src="img/x.png" width="18px" height="18px"  alt="">
+                            </label>
+
+                            <h2>GIỎ HÀNG</h2>
+
+                            <ul class="nav__mobile-lists">
+                        
+                                <div class="cart-headerr">
+                                <li class="cart-img">
+                                  <img src="../img/hinh.jpg" width="70px" height="70px">
+                                </li>
+                                <li class="cart-name-product">Gel Dưỡng Da Hyaluronic Acid 3W Clinic Water Sleeping Pack</li>                          
+                                </div>
+
+
+                                <div class="size">
+                                  <li>Cỡ nhỏ, lọ đứng</li>
+                                </div>
+                                <div class="price-all">
+                               
+    
+   
+                                <div class="input-group"> 
+          <span class="input-group-btn">  
+<button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]"> 
+              <span class="fa fa-minus"></span> 
+            </button>    
+          </span> 
+    <input name="quant[1]" class="form-control input-number" value="1" type="text"> <span class="input-group-btn">    
+            <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]"> <span class="fa fa-plus"></span> 
+            </button>    
+          </span> 
+   </div>
+                                <div class="price-sp">135,000₫</div>
+                                </div>
+                            </ul>
+
+                            <div class="note">
+                             
+                            <span>Chú thích cho cửa hàng</span>
+                            <textarea class="form-textarea" placeholder="Nội dung" style="height:100px;"> </textarea>
+                            <div class="tongtien">
+                              <li class="price-sp" >Tổng Tiền</li>
+                              <li class="price-sp">135,000₫</li>
+                            </div>
+                            <input type="button" class="thanhtoan" name="" value="Thanh Toán">
+                           
+                            </div>
+                       </form>
                 </div>
             </div>
         </div>
@@ -196,71 +263,68 @@
     <!-- end header -->
 
 
-   <!-- start banner-->
+   <!--	start banner-->
     <div class="abcxyz">
         <div class="contentlogin">
-            <div class="contentlogin_top text-center">
+            <div class="contentlogin_top text-center ">
                 <h1>GEL DƯỠNG DA HYALURONIC ACID 3W CLINIC WATER SLEEPING PACK</h1>
-            </div>
-            <div class="contentlogin_bot text-center">
-                <ul class="text-center">
-                  
-                        <li><a href="">Trang chủ</a> /
-                    <a href="">Sản phẩm nổi bật </a> /
-              
-                    
-                    GEL DƯỠNG DA HYALURONIC ACID 3W CLINIC WATER SLEEPING PACK</li>
-                </ul>
+                <a class="hoverbanner" href="">Trang chủ</a> 
+                <span style="color: white" href="">/</span>
+                <a class="hoverbanner" href="">Sản phẩm nổi bật </a>
+                <span style="color: white" href="">/</span>
+                <span class="abcxyz_tensp">GEL DƯỠNG DA HYALURONIC ACID 3W CLINIC WATER SLEEPING PACK</span>
             </div>
         </div>
     </div>
-    
-<!--    end banner-->
+	
+<!--	end banner-->
 
 <!-- start content -->
 <div class="container-fluid">
 <div class="row content2">
-    <div class="col-md-12">
-    <div class="container">
-        <div class="row">
+	<div class="col-md-12">
+	<div class="container">
+		<div class="row">
 
 
 
-        <div class="col-md-5">
-            <div class="row">
-                
-            <img class="img1 text-center" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_master.png" alt="">
-        </div>
-        
-        <div class="row text-center ">
-            <div class="container-fluid col-md-12">
-                <div class="row img3 text-center">
+		<div class="col-md-5">
+			<div class="row">
+				
+			<img class="img1 text-center" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_master.png" alt="">
+		</div>
+		
+		<div class="row text-center ">
+			<div class="container-fluid col-md-12">
+				<div class="row img3 text-center">
                     <div class="img-slide text-center">
 
-            <button class="leftbt"><</button>
-                <img class="img2" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_compact.png" alt="">
+			<button class="leftbt"><</button>
 
-            
-                <img class="img2" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_compact.png" alt="">
+				<img class="img2" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_compact.png" alt="">
 
-            
-                <img class="img2" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_compact.png" alt="">
+			
+				<img class="img2" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_compact.png" alt="">
 
-            
-                <img class="img2" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_compact.png" alt="">
-            <button class="rightbt">></button>                  
+			
+				<img class="img2" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_compact.png" alt="">
+
+			
+				<img class="img2" src="https://product.hstatic.net/1000185703/product/product-img2_4ae5eb2b2e0744fc9b6d1aeb584902f0_compact.png" alt="">
+
+            <button class="rightbt">></button>					
+		</div>
         </div>
-        </div>
-        </div>
-        </div>
-        </div>
+		</div>
+		</div>
+		</div>
 
 
 
 
 
-        <div class="col-md-7">
-        <div class="row">
+		<div class="col-md-7">
+		<div class="row">
         <div class="col-md-12">
 
             <div class="row tieude-chitietsp" style="border-bottom: 2px #cccc solid;">
@@ -313,7 +377,7 @@
                 </div>
 
                 <div class="function">
-                    <div>
+                	<div>
                                     <label class="label__size lbl-lablel" for="">Kích thước</label>
                                     <select class="choose_type" name="" id="">
                                         <option value="">Cỡ nhỏ</option>
@@ -396,12 +460,12 @@
 
             </div>
         </div>      
-        </div>  
+        </div>	
         
 
 
-    </div>
-    </div>
+	</div>
+	</div>
 
 
     <div class="row thongtinsp">
@@ -417,12 +481,12 @@
 
 
 
-<div class="row cmtfacebook">
-    <div class="comment-facebook">
+<div class="row">
+   <!--  <div class="comment-facebook">
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v6.0&appId=580750925983459&autoLogAppEvents=1"></script>
                 <div class="fb-comments" data-href="https://facebook.com/mjnhnnnn/" data-width="100%" data-numposts="10"></div>
-                </div>
+                </div> -->
 </div>
 
 
@@ -758,10 +822,10 @@
     </footer>
 
 
-        <script type="text/javascript" src="stylejs/style.js"></script>
-        <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
-        <script src="bootstrap/js/popper.min.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="stylejs/style.js"></script>
+		<script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+		<script src="bootstrap/js/popper.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
 
 
 
