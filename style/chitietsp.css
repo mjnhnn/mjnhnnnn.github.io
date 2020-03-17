@@ -10,11 +10,15 @@
                     .img2{
                         margin: 0 3px !important;
                     }
+                    .dropdown:hover div.dichvudrop {
+                        display: block !important;
+                        
+                    }
                     .nav__mobile_close{
     display: block !important;
 }
 
-                    .abcxyz{
+.abcxyz{
                      /*   padding-top: 100px !important;
                         margin-top: 0 !important;*/
                         background-attachment: unset !important;
@@ -30,14 +34,14 @@
     z-index: 12345 !important;
     opacity: 0 !important;
     transition: all linear 0.2s !important;
-
+    overflow: scroll ;
                     }
                     .dropdown{
                         position: relative !important;
                     }
                     .dichvudrop{
                         position: absolute !important;
-                        top:40% !important;
+                        top:100% !important;
                     }
 
 
@@ -394,7 +398,7 @@
 }
 
 .dropdown{
-    position: unset !important;
+    position: unset;
 }
 
 .navbar-nav{
@@ -417,7 +421,7 @@
     margin-top: 20px;
     margin-right: 10px;
 }
-.dichvudrop{
+/* .dichvudrop{
     position: absolute ;
     background: #000;
     left: 0;
@@ -425,14 +429,14 @@
     width: 100%;
    
     padding: 15px 0px;
-    /*display: none !important;*/
-}
+    
+} */
 .dropdown__block{
     display: none!important;
     position: absolute;
     z-index: 4;
     top: 100%;
-    left: 
+ 
 }
 .dropdown:hover ul.dropdown__block{
     display: block !important;
@@ -573,10 +577,10 @@ li.tuyendung2-2:hover{
     width: 100%;
     z-index: 1;
     padding: 15px 0px;
-    display: none !important;
+    display: none;
 }
 .dropdown:hover div.dichvudrop {
-    display: block !important;
+    display: block ;
 }
 .cartt{
     margin-left: 80px;
@@ -890,7 +894,7 @@ border-bottom: 1px solid;
     color: #fff;
 
 }
-}
+
 .footer_tintuc a{
     color: #fff;
 
@@ -1040,6 +1044,9 @@ flex: 2;
     justify-content: center;
             
         }
+.display {
+    display: block !important;
+}
 
 
 

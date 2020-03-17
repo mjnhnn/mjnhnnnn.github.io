@@ -284,3 +284,39 @@ e.preventDefault();
 }    
 });
 });
+$("#clickme").click(function(){
+    alert(("hello"));
+})
+
+// function dichvudroppp() {
+//     var x = document.getElementById("dichvudropp");
+   
+//       x.style.display = "block";
+  
+//     }
+var cx=1;
+  $("#trangchu2").click(function(){
+      if(cx==1){ 
+        document.getElementById("trangchu2con").style.display="block";
+        cx =2;
+}
+    else{
+        document.getElementById("trangchu2con").style.display="none";
+        cx=1;
+    }
+
+     
+  })
+
+ //dis play dropdown 
+ var iphone
+ $("#minh").click(function(){
+    if(iphone==1){ 
+        document.getElementById("dichvudropp").style.display="block";
+        iphone =2;
+}
+    else{
+        document.getElementById("dichvudropp").style.display="none";
+        iphone=1;
+    }
+})
